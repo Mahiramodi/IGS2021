@@ -236,10 +236,18 @@ h3 {
     font-weight: bold;
 }
 
+#timeline_section .row1 {
+    margin-right: 0% !important;
+}
+
 #timeline_section .col-sm h2 {
     font-size: 2.5rem;
     position: relative;
     left: 5%;
+}
+
+#timeline_section .timeline {
+    width: 100%;
 }
 
 #timeline_section .timeline .center_line {
@@ -251,13 +259,15 @@ h3 {
 }
 
 #timeline_section .timeline .row {
+    width: 100%;
     padding: 0%;
     position: relative;
-    left: 5.2%;
+    left: 9.2%;
 }
 
 #timeline_section .timeline section {
     margin-top: 3%;
+    align-items: center;
 }
 
 #timeline_section .timeline .row div {
@@ -345,6 +355,385 @@ h3 {
     margin-top: 23rem;
 }
 
+
+/*------------WHY ATTEND ------------------ */
+
+#whyattend {
+    color: white;
+    padding: 3% 0%;
+    background-color: rgb(24, 23, 23);
+}
+
+#whyattend .card_views {
+    width: 100%;
+}
+
+#whyattend h1 {
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+#whyattend .row {
+    justify-content: space-between;
+}
+
+#whyattend .card {
+    border: none;
+    background-color: transparent;
+    width: 24rem;
+    height: 35rem;
+}
+
+#whyattend .card-body {
+    padding: 0.5rem 0rem;
+    font-size: 1.7rem;
+}
+
+
+/*------------Section 4 ------------------ */
+
+#section4 {
+    padding: 2%;
+    background-color: rgb(44, 43, 43);
+    color: white;
+}
+
+#section4 .row {
+    padding: 0%;
+    margin-top: 5%;
+    align-items: center;
+}
+
+#section4 h1 {
+    font: 3.5rem;
+    text-align: center;
+}
+
+#section4 .col1 img {
+    height: 40rem;
+    width: 40rem;
+}
+
+#section4 .col2 .row {
+    align-items: baseline;
+    line-height: 2rem;
+}
+
+#section4 .col2 h2 {
+    font-size: 2rem;
+}
+
+#section4 .col2 p {
+    font-size: 1.3rem;
+    text-align: left;
+    margin-bottom: 0;
+    font-family: "Noto Sans JP", sans-serif;
+    font-style: italic;
+}
+
+#section4 .controller_column {
+    flex: 0.1;
+}
+
+#section4 .info_column {
+    flex: 2;
+}
+
+
+/*----------- Speakers section ----------------------*/
+
+#speakers_section {
+    padding: 3%;
+    background-color: rgb(24, 23, 23);
+    color: white;
+}
+
+#speakers_section h1 {
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 3%;
+}
+
+#speakers_section .container {
+    padding-bottom: 2%;
+}
+
+#speakers_section .row {
+    justify-content: space-evenly;
+}
+
+#speakers_section .row2 {
+    margin-top: 5%;
+}
+
+#speakers_section .card {
+    border: none;
+    background-color: rgb(44, 43, 43);
+    padding: 14%;
+    text-align: center;
+    width: 20rem;
+}
+
+#speakers_section .card h2 {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 1.7rem;
+}
+
+#speakers_section .card p {
+    font-size: 1.3rem;
+    color: #957fdf;
+}
+
+.colored_btn {
+    display: grid;
+    place-items: center;
+}
+
+.colored_btn button {
+    width: 13rem;
+    height: 5rem;
+    background: linear-gradient(to right, #af99f5, #3f2b96);
+    color: white;
+    border-radius: 3rem;
+    font-size: 2rem;
+    box-shadow: 0px 5px 11px 0px rgb(206 34 34 / 40%);
+}
+
+.colored_btn button:hover {
+    cursor: pointer;
+    background: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
+}
+
+
+/*----------- Awards section ----------------------*/
+
+#awards {
+    padding: 3%;
+    background-color: rgb(44, 43, 43);
+    color: white;
+}
+
+#awards #header {
+    display: flex;
+    justify-content: center;
+    padding: 1% 4%;
+    font-size: 3.5rem;
+    align-items: center;
+}
+
+#awards #header img {
+    height: 5.5rem;
+    padding-right: 0.5%;
+}
+
+#awards .buttons {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 2%;
+    margin-top: 2%;
+}
+
+#awards .buttons button {
+    height: 4.5rem;
+    border-radius: 3rem;
+    font-size: 1.5rem;
+    padding: 0% 1%;
+    color: #fff;
+    margin: 0% 1%;
+    background-color: rgb(44, 43, 43);
+    border: 1px solid rgb(85 54 178);
+}
+
+#awards .buttons .color_btn {
+    background: linear-gradient(to right, #af99f5, #3f2b96);
+}
+
+#awards hr {
+    margin: 2%;
+    border-top: 1px solid rgba(247, 247, 247, 0.815);
+    margin-bottom: 3%;
+}
+
+#awards .box_row {
+    justify-content: space-evenly;
+}
+
+#awards .row2 {
+    margin-top: 2%;
+}
+
+#awards .box {
+    background-color: rgb(24 23 23);
+    width: 17rem;
+    height: 6rem;
+    padding: 1%;
+    color: white;
+    box-shadow: 0px 3px 7px 0px rgb(202 199 199 / 40%);
+}
+
+
+/* #awards .box .col1 {
+    flex: 0.2;
+} */
+
+#awards .box .circles {
+    display: flex;
+}
+
+#awards .box .circle1 {
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    left: 9%;
+}
+
+#awards .box .circle2 {
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    background-color: rgb(99 79 181);
+}
+
+
+/* #awards .box .titles {
+    flex: 2;
+} */
+
+#awards .box h2 {
+    font-size: 1.3rem;
+}
+
+#awards .box p {
+    margin-bottom: 0%;
+    color: rgb(209, 169, 35);
+    font-size: 1.2rem;
+}
+
+#sponsers {
+    background-color: rgb(24 23 23);
+    padding: 3%;
+}
+
+#sponsers h1 {
+    color: white;
+    font-size: 3.5rem;
+    padding: 0.7%;
+    text-align: center;
+}
+
+#sponsers .row {
+    justify-content: center;
+    align-items: center;
+}
+
+#sponsers img {
+    height: 20rem;
+    width: 22rem;
+    padding-left: 2%;
+}
+
+#sponsers #sony_img {
+    height: 25rem;
+    width: 26rem;
+}
+
+#contact_us {
+    padding: 3%;
+    background-color: #2c2b2b;
+    color: white;
+}
+
+#contact_us h1 {
+    text-align: center;
+    font-size: 3.5rem;
+    margin-bottom: 3%;
+    text-transform: uppercase;
+}
+
+#contact_us .queries {
+    justify-content: center;
+}
+
+#contact_us .queries {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    gap: 18%;
+}
+
+#contact_us .line {
+    background-color: whitesmoke;
+    height: 0.08rem;
+    width: 75%;
+    margin: 4% 0%;
+}
+
+#contact_us .low_line {
+    width: 100%;
+    margin-top: 2%;
+}
+
+#contact_us .queries h3 {
+    margin-bottom: 0%;
+    font-size: 1.7rem;
+}
+
+#contact_us .queries h4 {
+    margin-bottom: 0%;
+    font-size: 1.5rem;
+}
+
+#contact_us .queries p {
+    margin-bottom: 0%;
+    font-size: 1.3rem;
+}
+
+#contact_us form .row {
+    margin: 1%;
+    display: grid;
+    grid-auto-flow: column;
+    color: white;
+    justify-content: center;
+}
+
+#contact_us form input {
+    background-color: #6b617e7d;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 2rem;
+    color: white;
+    width: 27rem;
+    padding: 3% 7%;
+}
+
+#contact_us img {
+    width: 20rem;
+    margin: 3%;
+}
+
+#contact_us button {
+    width: 16rem;
+    margin: 3%;
+    font-size: 1.3rem;
+    color: white;
+    border-radius: 2rem;
+    background: linear-gradient(to right, #af99f5, #3f2b96);
+    box-shadow: 0px 4px 7px rgb(206 34 34 / 40%);
+    text-transform: uppercase;
+    height: 4rem;
+}
+
+#contact_us button:hover {
+    cursor: pointer;
+    background: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
+}
+
+
+/* -------------MEDIA QUERiES =----------------*/
+
 @media screen and (min-width: 1020px) {
     .navbar-dark .navbar-brand {
         color: #fff;
@@ -372,6 +761,9 @@ h3 {
     }
     nav ul li a:hover:after {
         width: 25%;
+    }
+    #banner_img {
+        height: 72vh;
     }
     .banner_text {
         margin: 6.5% 7%;
@@ -411,7 +803,7 @@ h3 {
         font-size: 1rem;
     }
     #timeline_section .timeline .row {
-        left: 3.8%;
+        left: 8.7%;
     }
     #timeline_section .circle {
         width: 0.7rem;
@@ -455,6 +847,56 @@ h3 {
     #timeline_section #icon10 {
         width: 1rem;
         margin-top: 17rem;
+    }
+    #whyattend h1 {
+        font-size: 3rem;
+    }
+    #whyattend .card {
+        width: 17rem;
+        height: 30rem;
+    }
+    #whyattend .card-body {
+        padding: 0.5rem 0rem;
+        font-size: 1.3rem;
+    }
+    #section4 .col1 img {
+        height: 38rem;
+        width: 35rem;
+    }
+    #speakers_section .card {
+        width: 15rem;
+    }
+    #speakers_section .card h2 {
+        font-size: 1.5rem;
+    }
+    #speakers_section .card p {
+        font-size: 1.1rem;
+    }
+    #awards .buttons button {
+        height: 3.3rem;
+        border-radius: 2rem;
+        font-size: 1.2rem;
+    }
+    #awards .box .circle1 {
+        width: 1rem;
+        height: 1rem;
+    }
+    #awards .box .circle2 {
+        width: 1rem;
+        height: 1rem;
+    }
+    #sponsers img {
+        height: 18rem;
+        width: 16rem;
+        padding-left: 2%;
+    }
+    #sponsers img {
+        height: 17rem;
+        width: 14.5rem;
+        padding: 3%;
+    }
+    #sponsers #sony_img {
+        width: 23rem;
     }
 }
 
@@ -530,7 +972,89 @@ h3 {
         padding-top: 2.5rem;
     }
     #timeline_section .timeline .row {
-        left: 4.7%;
+        left: 8.7%;
+    }
+    #whyattend .row {
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        -webkit-overflow-scrolling: touch;
+    }
+    #whyattend .card {
+        width: 24rem;
+    }
+     ::-webkit-scrollbar {
+        display: none;
+    }
+    #section4 h1 {
+        padding: 3%;
+    }
+    #section4 .col1 {
+        display: none;
+    }
+    #section4 .col2 .row {
+        flex-direction: column;
+        text-align: center;
+        padding: 3% 0%;
+    }
+    #section4 .col2 p {
+        text-align: center;
+    }
+    #section4 .controller_column {
+        padding-bottom: 2%;
+    }
+    #speakers_section .row .col {
+        margin: 3% 1%;
+    }
+    #speakers_section .card h2 {
+        font-size: 1.3rem;
+    }
+    #speakers_section .card p {
+        font-size: 1rem;
+    }
+    .colored_btn button {
+        display: none;
+    }
+    #awards .buttons {
+        overflow-x: scroll;
+    }
+    #awards hr {
+        display: none;
+    }
+    #sponsers .row {
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        justify-content: flex-start;
+    }
+    #contact_us .queries {
+        justify-content: start;
+        gap: 9%;
+        grid-auto-flow: row;
+    }
+    #contact_us h1 {
+        font-size: 3rem;
+        margin-bottom: 5%;
+        text-transform: capitalize;
+    }
+    #contact_us .low_line {
+        margin-top: 6%;
+    }
+    #contact_us .queries h4 {
+        font-size: 1.3rem;
+    }
+    #contact_us .queries h3 {
+        margin-bottom: 0%;
+        font-size: 1.5rem;
+    }
+    #contact_us form .row {
+        grid-auto-flow: row;
+        /* justify-content: left; */
+    }
+    #contact_us form .col {
+        margin: 2%;
+    }
+    #contact_us form input {
+        width: 33rem;
     }
 }
 
@@ -552,6 +1076,24 @@ h3 {
         height: 3rem;
     }
     #timeline_section .timeline .row {
-        left: 3.8%;
+        left: 6.9%;
+    }
+    #speakers_section .card {
+        width: 11rem;
+    }
+    #speakers_section .card h2 {
+        font-size: 0.7rem;
+    }
+    #speakers_section .card p {
+        font-size: 0.5rem;
+    }
+    #sponsers #sony_img {
+        width: 18rem;
+    }
+    #contact_us .low_line {
+        margin-top: 10%;
+    }
+    #contact_us form input {
+        width: 24rem;
     }
 }
