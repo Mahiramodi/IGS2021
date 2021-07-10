@@ -55,6 +55,10 @@ button:hover {
     border-color: rgb(255 255 255 / 1%);
 }
 
+.navbar button :hover {
+    background-color: transparent !important;
+}
+
 nav {
     transition: all ease-in 0.3s;
 }
